@@ -1,0 +1,76 @@
+{
+  "pro": [
+    {
+      "id": "1",
+      "name": "SAW TEE",
+      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645466659/dewouu2cq9rhgpuyh4q9.jpg",
+      "Price": "300.000"
+    },
+    {
+      "id": "2",
+      "name": "HER TEE",
+      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645466769/uioe3r2os8lywtcod5q5.jpg",
+      "Price": "350.000"
+    },
+    {
+      "id": "3",
+      "name": "HIM TEE",
+      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645466820/vpo8dqe19q2g3jwaectf.jpg",
+      "Price": "350.000"
+    },
+    {
+      "id": "4",
+      "name": "THE DREAM CLUB VER2 T-SHIRT",
+      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645466866/tszbdiqomgirhdmlcvuv.jpg",
+      "Price": "300.000"
+    },
+    {
+      "id": "5",
+      "name": "BLANK TRACK TEE",
+      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645467679/vsbarvrp42ut7ij3n4y3.jpg",
+      "Price": "700.000"
+    },
+    {
+      "id": "6",
+      "name": "PENCIL ICON TEE",
+      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645467764/qgfbgwosf0rfdagkixdc.jpg",
+      "Price": "680.000"
+    },
+    {
+      "id": "mpoDnBN",
+      "name": "PENCIL DRAWING TEE",
+      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645470485/tvwvyqsympaextezdgkm.jpg",
+      "Price": "250.000"
+    },
+    {
+      "id": "bFIrnhb",
+      "name": "\"HÊN XUI\" TEE",
+      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645470539/mp1rtxtneqecgbddip9s.jpg",
+      "Price": "250.000"
+    }
+  ],
+  "users": [
+    {
+      "email": "thuanndph15088@fpt.edu.vn",
+      "password": "$2a$10$lqZEAFHyUyaqTu0FKnk5Vug96twP65zhME.5FA943j2RQG6UhPwKG",
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "title": "Áo phông -đen Mixi Mới được ra mắt !",
+      "img_post": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645020729/awsjjwjsyj0bjcqyr1jg.jpg",
+      "desc": "Mua Áo phông Độ Mixi dành cho các tín đồ game PUBG giá tốt. Mua hàng qua mạng uy tín, tiện lợi. Shopee đảm bảo nhận hàng, hoặc được hoàn lại tiền Giao Hàng",
+      "id": "1"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "name": " Bộ Ghép Hình Mixi - Mixi Block SS1 - MixiShop",
+      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645326262/xef4gbp5zqbwgs7k1egy.jpg",
+      "Price": "2500000"
+    }
+  ],
+  "categori": []
+}

@@ -1,0 +1,40 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/news",
+            "dest": "/"
+        },
+        {
+            "src": "/news/(.*)",
+            "dest": "/"
+        },
+        {
+            "src": "/signin",
+            "dest": "/"
+        },
+        {
+            "src": "/signup",
+            "dest": "/"
+        },
+        {
+            "src": "/editpost/(.*)",
+            "dest": "/"
+        },
+        {
+            "src": "/listpost",
+            "dest": "/"
+        },
+        {
+            "src": "/addpost",
+            "dest": "/"
+        },
+        {
+            "src": "/admin",
+            "dest": "/"
+        }
+    ]
+}

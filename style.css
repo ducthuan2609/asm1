@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* header  */
+/* .container{
+    @apply max-w-5xl m-auto;
+}
+
+.header_top{
+    @apply bg-[#272f54] py-3;
+}
+
+.header_main{
+    @apply  bg-[#c97802] flex;
+}
+
+.menu{
+    @apply mx-8 my-3 flex;
+}
+
+.menu_link {
+    @apply hover:border-b mx-4 text-white;
+}
+
+.input_text{
+    @apply w-52 outline-none;
+}
+
+.btn{
+    @apply bg-[#272f54] text-[#fff] border-[#fff] border w-24;
+}
+
+/* content  */
+/*
+.title{
+    @apply uppercase py-3 text-[#272f54] font-bold;
+}
+
+.row{
+    @apply grid grid-cols-3 gap-5 mb-5;
+}
+
+.banner{
+    @apply mb-5 mt-3;
+}
+
+.col{
+    @apply border border-red-600 p-6 text-left; 
+}
+
+.title_content{
+    @apply uppercase text-[#c97802] py-2 font-medium;
+}
+
+.text_content{
+    @apply text-black;  
+}
+
+.footer{
+    @apply bg-[#272f54] p-3 text-center;
+}
+
+.text_link{
+    @apply text-[#fff] uppercase;
+}  */
