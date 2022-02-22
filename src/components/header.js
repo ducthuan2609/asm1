@@ -38,16 +38,16 @@ const Header = {
                 <div class="menu my-auto">
                     <ul class="flex">
                         <li><a href="/"
-                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-[#03778e] ">HOME</a>
+                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-orange-500 ">HOME</a>
                         </li>
                         <li><a href="/about"
-                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-[#03778e] ">ABOUT US</a>
+                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-orange-500 ">ABOUT US</a>
                         </li>
                         <li><a href="/products"
-                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-[#03778e] ">PRODUCTS</a>
+                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-orange-500 ">PRODUCTS</a>
                         </li>
                         <li><a href="/posts"
-                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-[#03778e] ">POSTS</a>
+                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-orange-500 ">POSTS</a>
                         </li>
                         <li id="admin">
                         </li>
@@ -59,7 +59,7 @@ const Header = {
                 
             </div>
             <a href="/#/cart">
-                <div class="cart px-4 text-lg text-white font-[600] item-center relative">CART 
+                <div class="cart px-4 text-lg text-white font-[600] item-center relative hover:text-orange-500">CART 
                     <i class="fas fa-shopping-cart z-0 text-2xl"></i>
                     <span id="number" class="absolute bottom-2 left-32 z-10 text-red-500 p-1">0</span>
                 </div>
@@ -83,7 +83,7 @@ const Header = {
       // console.log(localStorage.getItem("user"))
       signined.innerHTML = ` <div id="signined" class="flex">
       <div class="user font-sans text-xl px-3 text-white">Hello : <span id="emailUser"></span></div>
-      <div class="logout cursor-pointer font-sans text-lg px-3 text-white" id="logout">Log out</div>
+      <div class="logout cursor-pointer font-sans text-lg px-3 text-white hover:text-orange-500" id="logout">Log out</div>
     </div>`;
       //print username
       const email = document.querySelector("#emailUser");
@@ -91,7 +91,7 @@ const Header = {
       //phân quyền
       if (JSON.parse(localStorage.getItem("user")).id === 1) {
         admin.innerHTML = `<a href="/admin"
-        class="p-3 text-lg text-white font-[600]  hover:border-[#03778e] hover:text-[#03778e] ">ADMIN</a>`;
+        class="p-3 text-lg text-white font-[600]  hover:border-[#03778e] hover:text-orange-500 ">ADMIN</a>`;
       } else {
         admin.innerHTML = "";
       }

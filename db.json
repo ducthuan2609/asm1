@@ -57,20 +57,10 @@
     }
   ],
   "posts": [
-    {
-      "title": "Áo phông -đen Mixi Mới được ra mắt !",
-      "img_post": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645020729/awsjjwjsyj0bjcqyr1jg.jpg",
-      "desc": "Mua Áo phông Độ Mixi dành cho các tín đồ game PUBG giá tốt. Mua hàng qua mạng uy tín, tiện lợi. Shopee đảm bảo nhận hàng, hoặc được hoàn lại tiền Giao Hàng",
-      "id": "1"
-    }
+
   ],
   "cart": [
-    {
-      "id": "1",
-      "name": " Bộ Ghép Hình Mixi - Mixi Block SS1 - MixiShop",
-      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645326262/xef4gbp5zqbwgs7k1egy.jpg",
-      "Price": "2500000"
-    }
+  
   ],
   "categori": []
 }
