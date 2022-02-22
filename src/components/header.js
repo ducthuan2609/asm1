@@ -37,21 +37,17 @@ const Header = {
                 </div>
                 <div class="menu my-auto">
                     <ul class="flex">
-                        <li><a href="#"
-                                class="p-3 text-lg text-[#888] font-[600] hover:border-b-2 hover:border-[#03778e] hover:text-[#03778e] "><i
-                                    class="fas fa-search"></i></a>
-                        </li>
                         <li><a href="/"
-                                class="p-3 text-lg text-white font-[600] hover:border-b-2 hover:border-[#03778e] hover:text-[#03778e] ">HOME</a>
+                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-[#03778e] ">HOME</a>
                         </li>
                         <li><a href="/about"
-                                class="p-3 text-lg text-white font-[600] hover:border-b-2 hover:border-[#03778e] hover:text-[#03778e] ">ABOUT US</a>
+                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-[#03778e] ">ABOUT US</a>
                         </li>
                         <li><a href="/products"
-                                class="p-3 text-lg text-white font-[600] hover:border-b-2 hover:border-[#03778e] hover:text-[#03778e] ">PRODUCTS</a>
+                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-[#03778e] ">PRODUCTS</a>
                         </li>
                         <li><a href="/posts"
-                                class="p-3 text-lg text-white font-[600] hover:border-b-2 hover:border-[#03778e] hover:text-[#03778e] ">POSTS</a>
+                                class="p-3 text-lg text-white font-[600] hover:border-[#03778e] hover:text-[#03778e] ">POSTS</a>
                         </li>
                         <li id="admin">
                         </li>
@@ -63,7 +59,7 @@ const Header = {
                 
             </div>
             <a href="/#/cart">
-                <div class="cart px-4 text-lg text-white font-[600] item-center relative">GIỎ HÀNG 
+                <div class="cart px-4 text-lg text-white font-[600] item-center relative">CART 
                     <i class="fas fa-shopping-cart z-0 text-2xl"></i>
                     <span id="number" class="absolute bottom-2 left-32 z-10 text-red-500 p-1">0</span>
                 </div>
@@ -86,8 +82,8 @@ const Header = {
     if (localStorage.getItem("user")) {
       // console.log(localStorage.getItem("user"))
       signined.innerHTML = ` <div id="signined" class="flex">
-      <div class="user font-sans text-xl px-3 text-white">Xin chào : <span id="emailUser"></span></div>
-      <div class="logout cursor-pointer font-sans text-lg px-3 text-white" id="logout">Đăng xuất</div>
+      <div class="user font-sans text-xl px-3 text-white">Hello : <span id="emailUser"></span></div>
+      <div class="logout cursor-pointer font-sans text-lg px-3 text-white" id="logout">Log out</div>
     </div>`;
       //print username
       const email = document.querySelector("#emailUser");
@@ -95,7 +91,7 @@ const Header = {
       //phân quyền
       if (JSON.parse(localStorage.getItem("user")).id === 1) {
         admin.innerHTML = `<a href="/admin"
-        class="p-3 text-lg text-[#888] font-[600] hover:border-b-2 hover:border-[#03778e] hover:text-[#03778e] ">ADMIN</a>`;
+        class="p-3 text-lg text-white font-[600]  hover:border-[#03778e] hover:text-[#03778e] ">ADMIN</a>`;
       } else {
         admin.innerHTML = "";
       }
