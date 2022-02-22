@@ -1,52 +1,60 @@
 {
   "pro": [
     {
-      "id": "1",
+      "name": "JOKER TEE",
+      "cate": "1",
+      "img": "http://res.cloudinary.com/ducthuan/image/upload/v1645549886/y1xwx4ecs6ngyowtpt72.jpg",
+      "Price": "250.000",
+      "id": "zFP06ng"
+    },
+    {
       "name": "SAW TEE",
-      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645466659/dewouu2cq9rhgpuyh4q9.jpg",
-      "Price": "300.000"
+      "cate": "1",
+      "img": "http://res.cloudinary.com/ducthuan/image/upload/v1645549971/ctro9qeiz8hianyjho6s.jpg",
+      "Price": "300.000",
+      "id": "6niqyeP"
     },
     {
-      "id": "2",
       "name": "HER TEE",
-      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645466769/uioe3r2os8lywtcod5q5.jpg",
-      "Price": "350.000"
+      "cate": "1",
+      "img": "http://res.cloudinary.com/ducthuan/image/upload/v1645550162/t4vsbotz6qy3yj6uujsr.jpg",
+      "Price": "250.000",
+      "id": "ffKFTNi"
     },
     {
-      "id": "3",
       "name": "HIM TEE",
-      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645466820/vpo8dqe19q2g3jwaectf.jpg",
-      "Price": "350.000"
+      "cate": "1",
+      "img": "http://res.cloudinary.com/ducthuan/image/upload/v1645550187/ba2hbbti6uli5h2igczu.jpg",
+      "Price": "300.000",
+      "id": "gU3q2C5"
     },
     {
-      "id": "4",
       "name": "THE DREAM CLUB VER2 T-SHIRT",
-      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645466866/tszbdiqomgirhdmlcvuv.jpg",
-      "Price": "300.000"
+      "cate": "1",
+      "img": "http://res.cloudinary.com/ducthuan/image/upload/v1645550250/jv4j0mu0qoh0lbiw2kal.jpg",
+      "Price": "300.000",
+      "id": "sULRszB"
     },
     {
-      "id": "5",
-      "name": "BLANK TRACK TEE",
-      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645467679/vsbarvrp42ut7ij3n4y3.jpg",
-      "Price": "700.000"
-    },
-    {
-      "id": "6",
       "name": "PENCIL ICON TEE",
-      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645467764/qgfbgwosf0rfdagkixdc.jpg",
-      "Price": "680.000"
+      "cate": "1",
+      "img": "http://res.cloudinary.com/ducthuan/image/upload/v1645550280/arpw9xhxjglbpabdp8ye.jpg",
+      "Price": "300.000",
+      "id": "DpV31po"
     },
     {
-      "id": "mpoDnBN",
       "name": "PENCIL DRAWING TEE",
-      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645470485/tvwvyqsympaextezdgkm.jpg",
-      "Price": "250.000"
+      "cate": "1",
+      "img": "http://res.cloudinary.com/ducthuan/image/upload/v1645550317/jpvcus0augwha2bnzjyi.jpg",
+      "Price": "300.000",
+      "id": "XOmZy_c"
     },
     {
-      "id": "bFIrnhb",
       "name": "\"HÊN XUI\" TEE",
-      "img": "http://res.cloudinary.com/dkiw9eaeh/image/upload/v1645470539/mp1rtxtneqecgbddip9s.jpg",
-      "Price": "250.000"
+      "cate": "1",
+      "img": "http://res.cloudinary.com/ducthuan/image/upload/v1645550408/gw7zlxdi6eps33bs6dpe.jpg",
+      "Price": "300.000",
+      "id": "hochoWP"
     }
   ],
   "users": [
@@ -56,11 +64,7 @@
       "id": 1
     }
   ],
-  "posts": [
-
-  ],
-  "cart": [
-  
-  ],
+  "posts": [],
+  "cart": [],
   "categori": []
 }

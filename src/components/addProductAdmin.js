@@ -73,8 +73,8 @@ const AddProductAdmin = {
     const img_preview = document.querySelector("#img_preview");
 
     const CLOUDINARY_API =
-      "https://api.cloudinary.com/v1_1/dkiw9eaeh/image/upload";
-    const COLUDINARY_PRESET = "wgapgiev";
+      "https://api.cloudinary.com/v1_1/ducthuan/image/upload";
+    const COLUDINARY_PRESET = "xs2re3mb";
 
     imgPro.addEventListener("change", (e) => {
       img_preview.src = URL.createObjectURL(imgPro.files[0]);
