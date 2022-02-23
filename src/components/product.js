@@ -42,9 +42,9 @@ const Main ={
                         <span class="line-through p-2 text-[#888]">250,000₫</span><span
                             class="font-[500] text-red-500 text-lg">${numberFormat.format(pro.Price)}đ</span>
                         <div
-                            class="sale absolute top-12 text-[#fff] bg-[#03778e] p-4 font-[700] rounded-3xl w-24 drop-shadow-lg ">
+                            class="sale absolute top-12 text-[#fff] bg-orange-500 p-4 font-[700] rounded-3xl w-24 drop-shadow-lg ">
                             SALE
-                            !</div>
+                        </div>
                     </a>
                 </div>
             `).join("")}
